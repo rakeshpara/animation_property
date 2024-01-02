@@ -1,0 +1,1090 @@
+
+body{
+  background: rgba(0,0,0,0.7);
+}
+
+ @keyframes tubelightanimation {
+  0% {
+    background: white;
+    box-shadow: 0px 10px 50px 20px white;
+  }
+  5% {
+    background: black;
+    box-shadow: none;
+  }
+  8% {
+    background: black;
+    box-shadow: none;
+  }
+  10% {
+    background: white;
+    box-shadow: 0px 10px 50px 20px white;
+  }
+  15% {
+    background: black;
+    box-shadow: none;
+  }
+  20% {
+    background: white;
+    box-shadow: 0px 10px 50px 20px white;
+  }
+  23% {
+    background: white;
+    box-shadow: 0px 10px 50px 20px white;
+  }
+  25% {
+    background: black;
+    box-shadow: none;
+  }
+  31% {
+    background: black;
+    box-shadow: none;
+  }
+  40% {
+    background: black;
+    box-shadow: none;
+  }
+  49% {
+    background: black;
+    box-shadow: none;
+  }
+  58% {
+    background: black;
+    box-shadow: none;
+  }
+  67% {
+    background: black;
+    box-shadow: none;
+  }
+  76% {
+    background: black;
+    box-shadow: none;
+  }
+  85% {
+    background: black;
+    box-shadow: none;
+  }
+  90% {
+    background: white;
+    box-shadow: 0px 10px 50px 20px white;
+  }
+  93% {
+    background: white;
+    box-shadow: 0px 10px 50px 20px white;
+  }
+  95% {
+    background: black;
+    box-shadow: none;
+  }
+  100% {
+    background: white;
+    box-shadow: 0px 10px 50px 20px white;
+  }
+}
+@keyframes tubelightmovements {
+  0% {
+    left: 1.9px;
+  }
+  1% {
+    left: 2.299998474121094px;
+  }
+  2% {
+    left: 2.7px;
+  }
+  3% {
+    left: 3.1px;
+  }
+  4% {
+    left: 3.5px;
+  }
+  5% {
+    left: 3.8999984741210936px;
+  }
+  6% {
+    left: 4.299998474121094px;
+  }
+  7% {
+    left: 4.699998474121093px;
+  }
+  8% {
+    left: 5.099998474121094px;
+  }
+  9% {
+    left: 5.499998474121094px;
+  }
+  10% {
+    left: 5.899998474121094px;
+  }
+  11% {
+    left: 6.3px;
+  }
+  12% {
+    left: 6.7px;
+  }
+  13% {
+    left: 7.1px;
+  }
+  14% {
+    left: 7.5px;
+  }
+  15% {
+    left: 7.9px;
+  }
+  16% {
+    left: 8.3px;
+  }
+  17% {
+    left: 8.7px;
+  }
+  18% {
+    left: 9.099998474121094px;
+  }
+  19% {
+    left: 9.499999237060546px;
+  }
+  20% {
+    left: 9.899999237060547px;
+  }
+  21% {
+    left: 10.299999237060547px;
+  }
+  22% {
+    left: 10.7px;
+  }
+  23% {
+    left: 11.099999237060548px;
+  }
+  24% {
+    left: 11.499999237060546px;
+  }
+  25% {
+    left: 11.899999237060547px;
+  }
+  26% {
+    left: 12.3px;
+  }
+  27% {
+    left: 12.7px;
+  }
+  28% {
+    left: 13.099999237060548px;
+  }
+  29% {
+    left: 13.499999237060546px;
+  }
+  30% {
+    left: 13.899999237060547px;
+  }
+  31% {
+    left: 14.3px;
+  }
+  32% {
+    left: 14.7px;
+  }
+  33% {
+    left: 15.1px;
+  }
+  34% {
+    left: 15.500000381469727px;
+  }
+  35% {
+    left: 15.900000381469727px;
+  }
+  36% {
+    left: 16.299999237060547px;
+  }
+  37% {
+    left: 16.699999237060545px;
+  }
+  38% {
+    left: 17.099999618530273px;
+  }
+  39% {
+    left: 17.499999618530275px;
+  }
+  40% {
+    left: 17.899999618530273px;
+  }
+  41% {
+    left: 18.3px;
+  }
+  42% {
+    left: 18.700000190734862px;
+  }
+  43% {
+    left: 19.100000190734864px;
+  }
+  44% {
+    left: 19.500000381469725px;
+  }
+  45% {
+    left: 19.90000057220459px;
+  }
+  46% {
+    left: 20.29999942779541px;
+  }
+  47% {
+    left: 20.69999952316284px;
+  }
+  48% {
+    left: 21.099999713897706px;
+  }
+  49% {
+    left: 21.499999856948854px;
+  }
+  50% {
+    left: 21.9px;
+  }
+  51% {
+    left: 21.500001525878908px;
+  }
+  52% {
+    left: 21.1px;
+  }
+  53% {
+    left: 20.7px;
+  }
+  54% {
+    left: 20.3px;
+  }
+  55% {
+    left: 19.9px;
+  }
+  56% {
+    left: 19.500001525878908px;
+  }
+  57% {
+    left: 19.100001525878906px;
+  }
+  58% {
+    left: 18.700001525878907px;
+  }
+  59% {
+    left: 18.300001525878905px;
+  }
+  60% {
+    left: 17.900001525878906px;
+  }
+  61% {
+    left: 17.5px;
+  }
+  62% {
+    left: 17.1px;
+  }
+  63% {
+    left: 16.7px;
+  }
+  64% {
+    left: 16.3px;
+  }
+  65% {
+    left: 15.9px;
+  }
+  66% {
+    left: 15.5px;
+  }
+  67% {
+    left: 15.1px;
+  }
+  68% {
+    left: 14.699999237060547px;
+  }
+  69% {
+    left: 14.299999237060547px;
+  }
+  70% {
+    left: 13.90000228881836px;
+  }
+  71% {
+    left: 13.500001525878906px;
+  }
+  72% {
+    left: 13.100001525878906px;
+  }
+  73% {
+    left: 12.700001525878907px;
+  }
+  74% {
+    left: 12.300001525878907px;
+  }
+  75% {
+    left: 11.900001525878906px;
+  }
+  76% {
+    left: 11.500000762939454px;
+  }
+  77% {
+    left: 11.100000762939453px;
+  }
+  78% {
+    left: 10.700000762939453px;
+  }
+  79% {
+    left: 10.300000762939453px;
+  }
+  80% {
+    left: 9.900000762939452px;
+  }
+  81% {
+    left: 9.5px;
+  }
+  82% {
+    left: 9.1px;
+  }
+  83% {
+    left: 8.7px;
+  }
+  84% {
+    left: 8.3px;
+  }
+  85% {
+    left: 7.9px;
+  }
+  86% {
+    left: 7.5px;
+  }
+  87% {
+    left: 7.1px;
+  }
+  88% {
+    left: 6.7px;
+  }
+  89% {
+    left: 6.299998474121094px;
+  }
+  90% {
+    left: 5.900001525878906px;
+  }
+  91% {
+    left: 5.500001525878906px;
+  }
+  92% {
+    left: 5.100001525878906px;
+  }
+  93% {
+    left: 4.700001525878906px;
+  }
+  94% {
+    left: 4.300001525878907px;
+  }
+  95% {
+    left: 3.9px;
+  }
+  96% {
+    left: 3.5px;
+  }
+  97% {
+    left: 3.1px;
+  }
+  98% {
+    left: 2.7px;
+  }
+  99% {
+    left: 2.3px;
+  }
+  100% {
+    left: 1.9px;
+  }
+}
+
+@keyframes twist {
+  0% {
+    transform: rotate(9.95deg) ;
+  }
+  1% {
+    transform: rotate(9.750000762939454deg) ;
+  }
+  2% {
+    transform: rotate(9.55deg) ;
+  }
+  3% {
+    transform: rotate(9.35deg) ;
+  }
+  4% {
+    transform: rotate(9.15deg) ;
+  }
+  5% {
+    transform: rotate(8.950000762939453deg) ;
+  }
+  6% {
+    transform: rotate(8.750000762939454deg) ;
+  }
+  7% {
+    transform: rotate(8.550000762939453deg) ;
+  }
+  8% {
+    transform: rotate(8.350000762939453deg) ;
+  }
+  9% {
+    transform: rotate(8.150000762939452deg) ;
+  }
+  10% {
+    transform: rotate(7.950000762939453deg) ;
+  }
+  11% {
+    transform: rotate(7.75deg) ;
+  }
+  12% {
+    transform: rotate(7.55deg) ;
+  }
+  13% {
+    transform: rotate(7.35deg) ;
+  }
+  14% {
+    transform: rotate(7.15deg) ;
+  }
+  15% {
+    transform: rotate(6.95deg) ;
+  }
+  16% {
+    transform: rotate(6.75deg) ;
+  }
+  17% {
+    transform: rotate(6.55deg) ;
+  }
+  18% {
+    transform: rotate(6.3500007629394535deg) ;
+  }
+  19% {
+    transform: rotate(6.150000381469726deg) ;
+  }
+  20% {
+    transform: rotate(5.950000381469726deg) ;
+  }
+  21% {
+    transform: rotate(5.750000381469727deg) ;
+  }
+  22% {
+    transform: rotate(5.55deg) ;
+  }
+  23% {
+    transform: rotate(5.350000381469727deg) ;
+  }
+  24% {
+    transform: rotate(5.150000381469726deg) ;
+  }
+  25% {
+    transform: rotate(4.950000381469726deg) ;
+  }
+  26% {
+    transform: rotate(4.75deg) ;
+  }
+  27% {
+    transform: rotate(4.55deg) ;
+  }
+  28% {
+    transform: rotate(4.350000381469727deg) ;
+  }
+  29% {
+    transform: rotate(4.150000381469726deg) ;
+  }
+  30% {
+    transform: rotate(3.9500003814697267deg) ;
+  }
+  31% {
+    transform: rotate(3.75deg) ;
+  }
+  32% {
+    transform: rotate(3.55deg) ;
+  }
+  33% {
+    transform: rotate(3.35deg) ;
+  }
+  34% {
+    transform: rotate(3.15deg) ;
+  }
+  35% {
+    transform: rotate(2.95deg) ;
+  }
+  36% {
+    transform: rotate(2.75deg) ;
+  }
+  37% {
+    transform: rotate(2.55deg) ;
+  }
+  38% {
+    transform: rotate(2.35deg) ;
+  }
+  39% {
+    transform: rotate(2.15deg) ;
+  }
+  40% {
+    transform: rotate(1.95deg) ;
+  }
+  41% {
+    transform: rotate(1.75deg) ;
+  }
+  42% {
+    transform: rotate(1.55deg) ;
+  }
+  43% {
+    transform: rotate(1.35deg) ;
+  }
+  44% {
+    transform: rotate(1.15deg) ;
+  }
+  45% {
+    transform: rotate(0.95deg) ;
+  }
+  46% {
+    transform: rotate(0.75deg) ;
+  }
+  47% {
+    transform: rotate(0.55deg) ;
+  }
+  48% {
+    transform: rotate(0.35deg) ;
+  }
+  49% {
+    transform: rotate(0.15deg) ;
+  }
+  50% {
+    transform: rotate(-0.05deg) ;
+  }
+  51% {
+    transform: rotate(0.14999923706054688deg) ;
+  }
+  52% {
+    transform: rotate(0.35deg) ;
+  }
+  53% {
+    transform: rotate(0.55deg) ;
+  }
+  54% {
+    transform: rotate(0.75deg) ;
+  }
+  55% {
+    transform: rotate(0.95deg) ;
+  }
+  56% {
+    transform: rotate(1.149999237060547deg) ;
+  }
+  57% {
+    transform: rotate(1.349999237060547deg) ;
+  }
+  58% {
+    transform: rotate(1.5499992370605469deg) ;
+  }
+  59% {
+    transform: rotate(1.7499992370605468deg) ;
+  }
+  60% {
+    transform: rotate(1.9499992370605468deg) ;
+  }
+  61% {
+    transform: rotate(2.15deg) ;
+  }
+  62% {
+    transform: rotate(2.35deg) ;
+  }
+  63% {
+    transform: rotate(2.55deg) ;
+  }
+  64% {
+    transform: rotate(2.75deg) ;
+  }
+  65% {
+    transform: rotate(2.95deg) ;
+  }
+  66% {
+    transform: rotate(3.15deg) ;
+  }
+  67% {
+    transform: rotate(3.35deg) ;
+  }
+  68% {
+    transform: rotate(3.5500003814697267deg) ;
+  }
+  69% {
+    transform: rotate(3.7500003814697265deg) ;
+  }
+  70% {
+    transform: rotate(3.9499988555908203deg) ;
+  }
+  71% {
+    transform: rotate(4.1499992370605465deg) ;
+  }
+  72% {
+    transform: rotate(4.349999237060547deg) ;
+  }
+  73% {
+    transform: rotate(4.549999237060547deg) ;
+  }
+  74% {
+    transform: rotate(4.749999237060547deg) ;
+  }
+  75% {
+    transform: rotate(4.949999237060547deg) ;
+  }
+  76% {
+    transform: rotate(5.149999618530273deg) ;
+  }
+  77% {
+    transform: rotate(5.349999618530274deg) ;
+  }
+  78% {
+    transform: rotate(5.549999618530274deg) ;
+  }
+  79% {
+    transform: rotate(5.749999618530273deg) ;
+  }
+  80% {
+    transform: rotate(5.949999618530273deg) ;
+  }
+  81% {
+    transform: rotate(6.15deg) ;
+  }
+  82% {
+    transform: rotate(6.35deg) ;
+  }
+  83% {
+    transform: rotate(6.55deg) ;
+  }
+  84% {
+    transform: rotate(6.7500001907348635deg) ;
+  }
+  85% {
+    transform: rotate(6.950000190734864deg) ;
+  }
+  86% {
+    transform: rotate(7.150000190734863deg) ;
+  }
+  87% {
+    transform: rotate(7.350000381469727deg) ;
+  }
+  88% {
+    transform: rotate(7.550000381469727deg) ;
+  }
+  89% {
+    transform: rotate(7.7500005722045895deg) ;
+  }
+  90% {
+    transform: rotate(7.949999237060547deg) ;
+  }
+  91% {
+    transform: rotate(8.149999237060547deg) ;
+  }
+  92% {
+    transform: rotate(8.34999942779541deg) ;
+  }
+  93% {
+    transform: rotate(8.54999942779541deg) ;
+  }
+  94% {
+    transform: rotate(8.749999523162842deg) ;
+  }
+  95% {
+    transform: rotate(8.949999618530274deg) ;
+  }
+  96% {
+    transform: rotate(9.149999713897705deg) ;
+  }
+  97% {
+    transform: rotate(9.34999976158142deg) ;
+  }
+  98% {
+    transform: rotate(9.549999856948853deg) ;
+  }
+  99% {
+    transform: rotate(9.749999928474427deg) ;
+  }
+  100% {
+    transform: rotate(9.95deg) ;
+  }
+} 
+
+.tubelight {
+  height: 50px;
+  width: 500px;
+  background: #0e3742;
+  position: absolute;
+  top: 100px;
+  border-radius: 20px 20px 0 0;
+  animation: tubelightmovements 2s infinite;
+}
+
+.tubelight::before {
+  content: '';
+  top: -100px;
+  left: 100px;
+  position: absolute;
+  height: 100px;
+  width: 5px;
+  background: #0e3742;
+  animation: twist 2s infinite;
+  transform-origin: 50% 50%;
+}
+
+.tubelight::after {
+  content: '';
+  top: -100px;
+  right: 100px;
+  position: absolute;
+  height: 100px;
+  width: 5px;
+  background: #0e3742;
+  animation: twist 2s infinite;
+  transform-origin: 50% 50%;
+}
+
+.light-rod {
+  width: 80%;
+  position: relative;
+  height: 15px;
+  background: black;
+  top: 50px;
+  left: 10%;
+  border-radius: 0 0 10px 10px;
+  animation: tubelightanimation 3s infinite;
+}
+
+.tubelight1 {
+    height: 50px;
+    width: 500px;
+    background: #0e3742;
+    position: absolute;
+    top: 100px;
+    border-radius: 20px 20px 0 0;
+    animation: tubelightmovements1 2s infinite;
+  }
+  
+  .tubelight1::before {
+    content: '';
+    top: -100px;
+    left: 100px;
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    background: #0e3742;
+    animation: twist 2s infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  .tubelight1::after {
+    content: '';
+    top: -100px;
+    right: 100px;
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    background: #0e3742;
+    animation: twist 2s infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  .light-rod1 {
+    width: 80%;
+    position: relative;
+    height: 15px;
+    background: black;
+    top: 50px;
+    left: 10%;
+    border-radius: 0 0 10px 10px;
+    animation: tubelightanimation 3s infinite;
+  }
+
+  @keyframes tubelightmovements1 {
+    0% {
+      right: 1.9px;
+    }
+    1% {
+      right: 2.299998474121094px;
+    }
+    2% {
+      right: 2.7px;
+    }
+    3% {
+      right: 3.1px;
+    }
+    4% {
+      right: 3.5px;
+    }
+    5% {
+      right: 3.8999984741210936px;
+    }
+    6% {
+      right: 4.299998474121094px;
+    }
+    7% {
+      right: 4.699998474121093px;
+    }
+    8% {
+      right: 5.099998474121094px;
+    }
+    9% {
+      right: 5.499998474121094px;
+    }
+    10% {
+      right: 5.899998474121094px;
+    }
+    11% {
+      right: 6.3px;
+    }
+    12% {
+      right: 6.7px;
+    }
+    13% {
+      right: 7.1px;
+    }
+    14% {
+      right: 7.5px;
+    }
+    15% {
+      right: 7.9px;
+    }
+    16% {
+      right: 8.3px;
+    }
+    17% {
+      right: 8.7px;
+    }
+    18% {
+      right: 9.099998474121094px;
+    }
+    19% {
+      right: 9.499999237060546px;
+    }
+    20% {
+      right: 9.899999237060547px;
+    }
+    21% {
+      right: 10.299999237060547px;
+    }
+    22% {
+      right: 10.7px;
+    }
+    23% {
+      right: 11.099999237060548px;
+    }
+    24% {
+      right: 11.499999237060546px;
+    }
+    25% {
+      right: 11.899999237060547px;
+    }
+    26% {
+      right: 12.3px;
+    }
+    27% {
+      right: 12.7px;
+    }
+    28% {
+      right: 13.099999237060548px;
+    }
+    29% {
+      right: 13.499999237060546px;
+    }
+    30% {
+      right: 13.899999237060547px;
+    }
+    31% {
+      right: 14.3px;
+    }
+    32% {
+      right: 14.7px;
+    }
+    33% {
+      right: 15.1px;
+    }
+    34% {
+      right: 15.500000381469727px;
+    }
+    35% {
+      right: 15.900000381469727px;
+    }
+    36% {
+      right: 16.299999237060547px;
+    }
+    37% {
+      right: 16.699999237060545px;
+    }
+    38% {
+      right: 17.099999618530273px;
+    }
+    39% {
+      right: 17.499999618530275px;
+    }
+    40% {
+      right: 17.899999618530273px;
+    }
+    41% {
+      right: 18.3px;
+    }
+    42% {
+      right: 18.700000190734862px;
+    }
+    43% {
+      right: 19.100000190734864px;
+    }
+    44% {
+      right: 19.500000381469725px;
+    }
+    45% {
+      right: 19.90000057220459px;
+    }
+    46% {
+      right: 20.29999942779541px;
+    }
+    47% {
+      right: 20.69999952316284px;
+    }
+    48% {
+      right: 21.099999713897706px;
+    }
+    49% {
+      right: 21.499999856948854px;
+    }
+    50% {
+      right: 21.9px;
+    }
+    51% {
+      right: 21.500001525878908px;
+    }
+    52% {
+      right: 21.1px;
+    }
+    53% {
+      right: 20.7px;
+    }
+    54% {
+      right: 20.3px;
+    }
+    55% {
+      right: 19.9px;
+    }
+    56% {
+      right: 19.500001525878908px;
+    }
+    57% {
+      right: 19.100001525878906px;
+    }
+    58% {
+      right: 18.700001525878907px;
+    }
+    59% {
+      right: 18.300001525878905px;
+    }
+    60% {
+      right: 17.900001525878906px;
+    }
+    61% {
+      right: 17.5px;
+    }
+    62% {
+      right: 17.1px;
+    }
+    63% {
+      right: 16.7px;
+    }
+    64% {
+      right: 16.3px;
+    }
+    65% {
+      right: 15.9px;
+    }
+    66% {
+      right: 15.5px;
+    }
+    67% {
+      right: 15.1px;
+    }
+    68% {
+      right: 14.699999237060547px;
+    }
+    69% {
+      right: 14.299999237060547px;
+    }
+    70% {
+      right: 13.90000228881836px;
+    }
+    71% {
+      right: 13.500001525878906px;
+    }
+    72% {
+      right: 13.100001525878906px;
+    }
+    73% {
+      right: 12.700001525878907px;
+    }
+    74% {
+      right: 12.300001525878907px;
+    }
+    75% {
+      right: 11.900001525878906px;
+    }
+    76% {
+      right: 11.500000762939454px;
+    }
+    77% {
+      right: 11.100000762939453px;
+    }
+    78% {
+      right: 10.700000762939453px;
+    }
+    79% {
+      right: 10.300000762939453px;
+    }
+    80% {
+      right: 9.900000762939452px;
+    }
+    81% {
+      right: 9.5px;
+    }
+    82% {
+      right: 9.1px;
+    }
+    83% {
+      right: 8.7px;
+    }
+    84% {
+      right: 8.3px;
+    }
+    85% {
+      right: 7.9px;
+    }
+    86% {
+      right: 7.5px;
+    }
+    87% {
+      right: 7.1px;
+    }
+    88% {
+      right: 6.7px;
+    }
+    89% {
+      right: 6.299998474121094px;
+    }
+    90% {
+      right: 5.900001525878906px;
+    }
+    91% {
+      right: 5.500001525878906px;
+    }
+    92% {
+      right: 5.100001525878906px;
+    }
+    93% {
+      right: 4.700001525878906px;
+    }
+    94% {
+      right: 4.300001525878907px;
+    }
+    95% {
+      right: 3.9px;
+    }
+    96% {
+      right: 3.5px;
+    }
+    97% {
+      right: 3.1px;
+    }
+    98% {
+      right: 2.7px;
+    }
+    99% {
+      right: 2.3px;
+    }
+    100% {
+      right: 1.9px;
+    }
+  }
